@@ -150,7 +150,6 @@
         </div>
       </div>
     </section>
-    <TheFooterForm/>
     <section class="p-12">
       <div class="container max-w-7xl mx-auto">
         <h3 class="text-4xl text-center text-slate-900 dark:text-white mb-8">Почему нас выбирают</h3>
@@ -176,6 +175,7 @@
         </div>
       </div>
     </section>
+    <TheFooterForm/>
   </main>
 </template>
 <script setup lang="ts">

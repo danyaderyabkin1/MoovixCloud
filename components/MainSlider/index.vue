@@ -4,9 +4,9 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide swiper-slide-main flex flex-col ">
           <img class="absolute top-0 right-0 w-full h-full object-cover -z-10 rounded-2xl" src="/assets/images/1dc99db08c5d40bf9ea114d525af9730.png" alt="icon">
-          <h2 class="text-2xl mb-2">Перенесем ваши данные бесплатно</h2>
+          <h2 class="text-2xl dark:text-black mb-2">Перенесем ваши данные бесплатно</h2>
           <p class="text-gray-500 font-thin mb-4 pr-20">Администрирование включено</p>
-          <UButton :ui="{ rounded: 'rounded-xl', icon: {size: {xl: 'w-4 h-5'}}}" color="black"  size="xl" class="text-white text-[14px]" trailing icon="i-material-symbols-arrow-right-alt-rounded" >Написать нам</UButton>
+          <UButton :ui="{variant: {solid: ' dark:bg-black'}, rounded: 'rounded-xl', icon: {size: {xl: 'w-4 h-5'}}}" color="black"  size="xl" class="text-white dark:text-white dark:bg-black text-[14px]" trailing icon="i-material-symbols-arrow-right-alt-rounded" >Написать нам</UButton>
         </div>
         <div class="swiper-slide bg-cool-700">
           <h3 class="text-lg text-white/90 mb-3">Облачные серверы</h3>

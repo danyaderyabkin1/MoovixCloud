@@ -4,7 +4,7 @@
 
 <template>
   <section class="feedback p-5">
-    <div class="container bg-sky-100 dark:bg-gray-700 feedback__container flex items-center max-w-7xl rounded-3xl mx-auto pe-8">
+    <UContainer class="bg-indigo-50 dark:bg-gray-800 feedback__container flex items-center rounded-3xl mx-auto pe-8">
       <div class="flex gap-3">
         <img src="/assets/images/chat.webp.webp" alt="chat">
       </div>
@@ -21,7 +21,7 @@
           Написать нам
         </template>
       </UButton>
-    </div>
+    </UContainer>
   </section>
 </template>
 
